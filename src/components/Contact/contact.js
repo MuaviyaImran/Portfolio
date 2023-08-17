@@ -91,7 +91,10 @@ export default function Contact() {
       .catch((error) => console.error(error));
   };
   return (
-    <section id="contact-me" className=" px-20  h-full w-full ">
+    <section
+      id="contact-me"
+      className=" lg:px-20 md:px-10 px-5  h-full w-full "
+    >
       <div className="grid justify-center">
         <h1 className="text-center font-extrabold text-[32px] mt-10 mb-12 py-2 px-4 text-black border border-gray-600 w-fit rounded-xl">
           Contact Me
