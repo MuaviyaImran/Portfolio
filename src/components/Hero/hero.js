@@ -8,28 +8,28 @@ export default function Hero() {
     opacity: 1,
     transform: "translateY(0)",
     from: { opacity: 0, transform: "translateY(-20px)" },
-    delay: 500,
+    delay: 100,
   });
 
   const fadeInLeft = useSpring({
     opacity: 1,
     transform: "translateX(0)",
     from: { opacity: 0, transform: "translateX(-20px)" },
-    delay: 1000,
+    delay: 100,
   });
 
   const fadeInBottom = useSpring({
     opacity: 1,
     transform: "translateY(0)",
     from: { opacity: 0, transform: "translateY(20px)" },
-    delay: 1500,
+    delay: 100,
   });
 
   const fadeInRight = useSpring({
     opacity: 1,
     transform: "translateX(0)",
     from: { opacity: 0, transform: "translateX(20px)" },
-    delay: 2000,
+    delay: 100,
   });
 
   return (
@@ -40,7 +40,7 @@ export default function Hero() {
             className="font-bold lg:text-[32px] text-[20px] my-4 animate__animated animate__fadeInDownBig text-center lg:text-left"
             style={fadeInTop}
           >
-            Hi! I am 
+            Hi! I am
           </animated.h1>
 
           <animated.div
