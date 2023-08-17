@@ -9,7 +9,7 @@ export default function MySkills() {
         </h1>
       </div>
 
-      <div className="grid lg:grid-cols-5 xl:grid-cols-8 grid-cols-1 s:grid-cols-2 md:grid-cols-4 lg:gap-3 grid-rows-1 gap-5 items-center justify-center">
+      <div className="grid lg:grid-cols-5 xl:grid-cols-8 grid-cols-2 s:grid-cols-2 md:grid-cols-4 lg:gap-3 grid-rows-1 sm:gap-5 gap-2 items-center justify-center">
         <div className="lg:col-span-1 p-5  border-blue-700 border-4 rounded-2xl h-full w-full bg-gray-400 bg-clip-padding backdrop-blur-sm bg-opacity-10 hover:animate-bounce grid justify-center cursor-pointer">
           <img src="./c-plus-plus.png" />
           <span className="flex justify-center items-center">C++</span>
