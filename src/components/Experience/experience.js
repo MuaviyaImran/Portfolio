@@ -2,7 +2,7 @@
 
 export default function Experience() {
   return (
-    <section id="experience" className=" my-20">
+    <section id="experience" className="my-6 ">
       <div className="grid justify-center ">
         <h1 className="text-center font-extrabold text-[32px] mt-10 mb-12 py-2 px-4 text-black border border-gray-600 w-fit rounded-xl">
           My Experience
@@ -19,10 +19,12 @@ export default function Experience() {
             <div className="text-center p-3 hover:text-[18px]">
               <ul>
                 <li>
-                  📚 Worked as a Backend Developer on SFRA E-Commerce Website
-                  "Everything But Water". 🚀
+                  📚 Worked as a Backend Developer on SFRA E-Commerce Website "Everything But Water". 🚀
                 </li>
-                <li>💻 Created Efficient code blocks ✨</li>
+                <li>
+                  💻 Created Efficient code blocks
+                  ✨
+                </li>
                 <li>
                   🤝 Collaborated effectively for high-quality app delivery,
                   improving teamwork and communication 🤗
@@ -41,8 +43,7 @@ export default function Experience() {
             <div className="text-center p-3 hover:text-[18px]">
               <ul>
                 <li>
-                  📝 Contributed to an article generator AI website, focusing
-                  development 🌟
+                  📝 Contributed to an article generator AI website, focusing development 🌟
                 </li>
                 <li>
                   💻 Implemented user-friendly and visually appealing interfaces
@@ -54,7 +55,7 @@ export default function Experience() {
                 </li>
               </ul>
             </div>
-          </div>
+          </div>{" "}
         </div>
       </div>
     </section>
