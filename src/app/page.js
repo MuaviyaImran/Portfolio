@@ -7,7 +7,7 @@ import MySkills from "@/components/Skills/skills";
 import Contact from "@/components/Contact/contact";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between lg:p-24 overflow-x-hidden w-full">
+    <main className="w-[1200px] mx-auto">
       <Hero />
       <Quote />
       <AboutMe />

@@ -91,7 +91,7 @@ export default function Contact() {
       .catch((error) => console.error(error));
   };
   return (
-    <section id="contact-me" className="my-4 h-full w-full">
+    <section id="contact-me" className="">
       <div className="grid justify-center">
         <h1 className="text-center font-extrabold text-[22px] md:text-[28px] lg:text-[32px] md:mt-6 lg:mt-10 mt-3 md:mb-6 mb-0 lg:mb-12  py-2 px-4 text-black border border-gray-600 w-fit rounded-xl">
           Contact Me
@@ -103,7 +103,7 @@ export default function Contact() {
             action="https://getform.io/f/4b04c959-c718-4a67-aae6-5fcbe4a48ae0"
             method="POST"
             onSubmit={handleSubmit}
-            className="w-full mt-20 px-8 border-4 border-[#56555D] py-10 rounded-2xl
+            className="w-[80%] mt-20 px-8 border-4 border-[#56555D] py-10 rounded-2xl
             bg-gray-400  bg-clip-padding backdrop-blur-sm bg-opacity-10"
           >
             <div className="mb-4">
